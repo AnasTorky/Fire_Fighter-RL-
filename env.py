@@ -1,4 +1,3 @@
-7o7o🐨♥️, [29/03/2025 21:27]
 import numpy as np
 import random
 import tkinter as tk
@@ -9,7 +8,7 @@ class FireFighterEnv:
         self.size = (size, size)            # Grid dimensions
         self.max_steps = max_steps          # Maximum allowed steps
         self.fire_spawn_delay = fire_spawn_delay  # Fire countdown timer
-        
+          
         # Initialize grid
         self.grid = np.zeros(self.size, dtype=np.int32)
         self.fire_timers = np.zeros(self.size, dtype=np.int32)
